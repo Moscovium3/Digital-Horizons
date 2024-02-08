@@ -87,11 +87,37 @@
   opacity: 0;
   animation: revealText 2s forwards;
 }
-
 .bold {
   font-weight: bold;
   color: #607D8B; /* 蓝灰色 */
 }
+
+/* 中间偏下方内容的容器样式 */
+.middle-lower-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: -80vh;
+  margin-top: -50px; /* 根据需要调整这个值，以达到你想要的偏下效果 */
+}
+.case-study {
+  color: #607D8B; /* 蓝灰色 */
+  text-align: center; /* 确保文本居中 */
+  margin-bottom: 0px; /* 将下边距设置得非常小 */
+  line-height: 1.2; /* 调整行间距 */
+  font-size: 0.9em; /* 调整字体大小 */
+}
+
+.group-role {
+  color: #607D8B; /* 蓝灰色 */
+  text-align: center; /* 确保文本居中 */
+  margin-top: 0px; /* 将上边距设置得非常小 */
+  line-height: 1.2; /* 调整行间距 */
+  font-size: 0.75em; /*adjust font size*/
+}
+
+
 </style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="My" tags="" position="525,0" size="200,200">(text-colour:white)[&#39;&#39;&#39;&#39;You are (text-style:&quot;bold&quot;,&quot;smear&quot;)+(text-colour:#ffc078)[Alex]
 A seasoned UI/UX designer at&#39;&#39; Digital Horizons&#39;&#39;, a company renowned for its innovative web design solutions. 
 
@@ -101,7 +127,8 @@ Your (text-colour:#4dabf7)+(text-style:&quot;underline&quot;)[[Tasks]] is to red
 &#39;&#39;&#39;&#39;]
 Now that your team has communicated with the customer and learned about their needs
 
-&lt;span style=&quot;color:blue;&quot;&gt;→&lt;/span&gt; [[Click here to see  Client&#39;s Needs-&gt;Client&#39;s Needs]]</tw-passagedata><tw-passagedata pid="2" name="Tasks" tags="" position="550,300" size="100,100">A. &lt;span style=&quot;color:blue;&quot;&gt;→&lt;/span&gt;(text-colour:blue)+(text-style:&quot;underline&quot;)[[Changing the shape of the buttons]]: Changing the current button design from rounded rectangles to arrows in the belief that this will simplify the shopping process. And use the left arrow to indicate acceptance of the company&#39;s default product and the right arrow to escalate the user to a more expensive category.
+&lt;span style=&quot;color:blue;&quot;&gt;→&lt;/span&gt; [[Click here to see  Client&#39;s Needs-&gt;Client&#39;s Needs]]
+</tw-passagedata><tw-passagedata pid="2" name="Tasks" tags="" position="550,300" size="100,100">A. &lt;span style=&quot;color:blue;&quot;&gt;→&lt;/span&gt;(text-colour:blue)+(text-style:&quot;underline&quot;)[[Changing the shape of the buttons]]: Changing the current button design from rounded rectangles to arrows in the belief that this will simplify the shopping process. And use the left arrow to indicate acceptance of the company&#39;s default product and the right arrow to escalate the user to a more expensive category.
 
 B. &lt;span style=&quot;color:blue;&quot;&gt;→&lt;/span&gt;(text-colour:blue)+(text-style:&quot;underline&quot;)[[Modification of color scheme]]: Implemented a new color scheme using red and green text to highlight transactions and advanced options.
 
@@ -117,7 +144,7 @@ Now, your team makes a project brief detailing the specific changes they think w
 
 
 
-&#39;&#39;&amp;#8594&#39;&#39;[[Click here to see  Project Brief-&gt;Tasks]]</tw-passagedata><tw-passagedata pid="4" name="Checkout process modifications" tags="" position="825,350" size="100,100">Now you start trying to streamline the checkout process by automatically selecting additional optional services, such as extended warranties and premium support, unless the user opts out.
+&#39;&#39;&amp;#8594&#39;&#39;[[Click here to see  Project Brief-&gt;Tasks]]</tw-passagedata><tw-passagedata pid="4" name="Checkout process modifications" tags="" position="825,300" size="100,100">Now you start trying to streamline the checkout process by automatically selecting additional optional services, such as extended warranties and premium support, unless the user opts out.
 然后写发生了啥问题，这个没写
 
 It bothers you，now you
@@ -144,6 +171,18 @@ It bothers you，now you
 &lt;span style=&quot;color:blue;&quot;&gt;→&lt;/span&gt;[[Think the client is inappropriate. Ask the manager for help-&gt;A3]]</tw-passagedata><tw-passagedata pid="7" name="Cover" tags="" position="250,25" size="100,100">&lt;div class=&quot;title&quot;&gt;Digital Horizons&lt;/div&gt;
 &lt;div class=&quot;sub-title&quot;&gt;The interactive story is based on the ACM Ethics Board case study &quot;Dark UX Patterns&quot;.&lt;/div&gt;
 &lt;div class=&quot;start-link&quot;&gt;[[Click here to start your story-&gt;My]]&lt;/div&gt;
+
+&lt;div class=&quot;middle-lower-container&quot;&gt;
+  &lt;div class=&quot;case-study&quot;&gt;
+    &lt;a href=&quot;https://ethics.acm.org/code-of-ethics/using-the-code/case-dark-ux-patterns/&quot; style=&quot;color: #607D8B;&quot;&gt;Case Study Link &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;group-role&quot;&gt;Group Role: &lt;br&gt;
+    Zhengying Sun - Developer(coding), UI designer, &lt;br&gt;
+    你们的名字-角色，&lt;br&gt;
+    你们的名字-角色
+  &lt;/div&gt;
+&lt;/div&gt;
+
 </tw-passagedata><tw-passagedata pid="8" name="C2" tags="" position="600,675" size="100,100">You have made a change to the platform according to the client&#39;s needs, which has been highly praised by the client. 
 
 But you still have concerns about whether this change will cause users to lose money, you decide to:

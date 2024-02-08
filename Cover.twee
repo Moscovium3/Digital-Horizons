@@ -129,7 +129,7 @@ It bothers you，now you
 <span style="color:blue;">→</span>[[Think the client is inappropriate. Ask the manager for help->A3]]
 
 
-:: Checkout process modifications {"position":"825,350","size":"100,100"}
+:: Checkout process modifications {"position":"825,300","size":"100,100"}
 Now you start trying to streamline the checkout process by automatically selecting additional optional services, such as extended warranties and premium support, unless the user opts out.
 然后写发生了啥问题，这个没写
 
@@ -216,6 +216,18 @@ Now, your team makes a project brief detailing the specific changes they think w
 <div class="title">Digital Horizons</div>
 <div class="sub-title">The interactive story is based on the ACM Ethics Board case study "Dark UX Patterns".</div>
 <div class="start-link">[[Click here to start your story->My]]</div>
+
+<div class="middle-lower-container">
+  <div class="case-study">
+    <a href="https://ethics.acm.org/code-of-ethics/using-the-code/case-dark-ux-patterns/" style="color: #607D8B;">Case Study Link </a>
+  </div>
+  <div class="group-role">Group Role: <br>
+    Zhengying Sun - Developer(coding), UI designer, <br>
+    你们的名字-角色，<br>
+    你们的名字-角色
+  </div>
+</div>
+
 
 
 
@@ -312,6 +324,7 @@ Your (text-colour:#4dabf7)+(text-style:"underline")[[Tasks]] is to redesign BuyB
 Now that your team has communicated with the customer and learned about their needs
 
 <span style="color:blue;">→</span> [[Click here to see  Client's Needs->Client's Needs]]
+
 
 
 :: Report-1 {"position":"1450,525","size":"100,100"}
@@ -437,8 +450,34 @@ Now you need to complete your tasks one by one,(text-colour:grey)[&#8593''click 
   opacity: 0;
   animation: revealText 2s forwards;
 }
-
 .bold {
   font-weight: bold;
   color: #607D8B; /* 蓝灰色 */
 }
+
+/* 中间偏下方内容的容器样式 */
+.middle-lower-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: -80vh;
+  margin-top: -50px; /* 根据需要调整这个值，以达到你想要的偏下效果 */
+}
+.case-study {
+  color: #607D8B; /* 蓝灰色 */
+  text-align: center; /* 确保文本居中 */
+  margin-bottom: 0px; /* 将下边距设置得非常小 */
+  line-height: 1.2; /* 调整行间距 */
+  font-size: 0.9em; /* 调整字体大小 */
+}
+
+.group-role {
+  color: #607D8B; /* 蓝灰色 */
+  text-align: center; /* 确保文本居中 */
+  margin-top: 0px; /* 将上边距设置得非常小 */
+  line-height: 1.2; /* 调整行间距 */
+  font-size: 0.75em; /*adjust font size*/
+}
+
+

@@ -6,9 +6,9 @@ Welcome to Digital Horizons! This is an interactive story project based on the A
 
 To start playing Digital Horizons, you have two options:
 
-1.Click on this link:
+1. Click on this link:
 
-2.Simply open the project in your preferred Twine application. Navigate through the story by making choices at various decision points to determine the outcome of the narrative.
+2. Simply open the project in your preferred Twine application. Navigate through the story by making choices at various decision points to determine the outcome of the narrative.
 
 ## Features
 

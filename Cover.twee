@@ -256,7 +256,7 @@ The interactive story is based on the ACM Ethics Board case study
 <span style="color:blue;">→</span> [[Click here to start over->Cover]]
 
 
-:: Ending3 {"position":"1500,750","size":"100,100"}
+:: Ending3 {"position":"1475,775","size":"100,100"}
 <div class="title">Ending 3</div>
 The report was successful, and BuyBest was subjected to a government-supervised overhaul.
 <span style="color:blue;">→</span> [[Click here to start over->Cover]]
@@ -331,7 +331,7 @@ Now that your team has communicated with the customer and learned about their ne
 
 
 :: Report-1 {"position":"1450,525","size":"100,100"}
-User B's review reinforces your conviction that your concerns are real, and you decide to ''report'' the platform's illogical design. 
+User's review reinforces your conviction that your concerns are real, and you decide to ''report'' the platform's illogical design. 
 
 You reported BuyBest to the authorities for utilizing a dark user experience (UX) model to lure users into choosing unintended (and often more expensive) options that cause harm.
 
@@ -339,17 +339,17 @@ You reported BuyBest to the authorities for utilizing a dark user experience (UX
 
 
 :: Report-2 {"position":"425,550","size":"100,100"}
-User B's review reinforces your conviction that your concerns are real, and you decide to ''report'' the platform's illogical design. 
+User‘s review reinforces your conviction that your concerns are real, and you decide to ''report'' the platform's illogical design. 
 
-You reported BuyBest to the authorities for utilizing a dark user experience (UX) model to 这个是什么影响要写
+You reported BuyBest to the authorities for utilizing mixture of red and green text to obscured important disclaimers about the product.
 
 <div class="blink blue-text" style="cursor:pointer;">[[&#8594Click here to see the outcome->Ending3]]</div>
 
 
 :: Report-3 {"position":"575,1050","size":"100,100"}
-User B's review reinforces your conviction that your concerns are real, and you decide to ''report'' the platform's illogical design. 
+User's review reinforces your conviction that your concerns are real, and you decide to ''report'' the platform's illogical design. 
 
-You reported BuyBest to the authorities for utilizing a dark user experience (UX) model to 这个是什么影响要写
+You reported BuyBest to the authorities for utilizing the addition of protection warranty without asking for confirmation to trick users into choosing options they don't want.
 
 <div class="blink blue-text" style="cursor:pointer;">[[&#8594Click here to see the outcome->Ending3]]</div>
 

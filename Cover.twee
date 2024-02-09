@@ -21,17 +21,15 @@ But you still have concerns about whether this change will cause users to lose m
 <span style="color:blue;">→</span>[[Keep your worries down and go with the flow->Event-1]]
 
 
-
-
-:: A21 {"position":"1525,200","size":"100,100"}
+:: A21 {"position":"1500,200","size":"100,100"}
 <span style="font-size: 5.oem;">User Surveys</span>
 
 You have decided to dig and research BuyBest user reviews online.
-You have collected some recently generated user reviews for BuyBest.
 
-<span style="color:blue;">→</span>[[Read User A's review： "Creative interface design"->Client A]]
-<span style="color:blue;">→</span>[[Read User B's review："Unorthodox button design"->Client B]]
+There are some recent user feedback has emerged for BuyBest, you want to
 
+<span style="color:blue;">→</span>[[Read User Alice's review： "Creative interface design"->Client A]]
+<span style="color:blue;">→</span>[[Read User Bob's review："Irregular and misleading button design"->Client B]]
 
 
 :: A3 {"position":"2175,325","size":"100,100"}
@@ -45,8 +43,6 @@ What should you do?
 <span style="color:blue;">→</span>[[You stuck to your guns and rejected the manager's offer.->Ending1]]
 
 
-
-
 :: B2 {"position":"100,350","size":"100,100"}
 You have made a change to the platform according to the client's needs, which has been highly praised by the client. 
 
@@ -56,21 +52,19 @@ But you still have concerns about whether this change will cause users to lose m
 <span style="color:blue;">→</span>[[Keep your worries down and go with the flow->Event-2]]
 
 
-
-
 :: B21 {"position":"275,500","size":"100,100"}
 <span style="font-size: 5.oem;">User Surveys</span>
 
 You have decided to dig and research BuyBest user reviews online.
-You have collected some recently generated user reviews for BuyBest.
 
-<span style="color:blue;">→</span>[[Read User A's review： 写用户意见->Client A2]]
-<span style="color:blue;">→</span>[[Read User B's review：写用户意见->Client B2]]
+There are some recent user feedback has emerged for BuyBest, you want to
 
+<span style="color:blue;">→</span>[[Read User Amanda's review: Effective Use of Color Enhances Navigation->Client A2]]
+<span style="color:blue;">→</span>[[Read User Brain's review: Color Scheme Challenges for Color Blind Users->Client B2]]
 
 
 :: B3 {"position":"275,300","size":"100,100"}
-You suggest to your manager that 建议是什么，没有写。
+You suggest to your manager that the combination of red and green text in the interface could cause confusion for individuals with red-green color blindness. 
 
 "These are customer-requested changes, and meeting the customer's needs is what we should be thinking about", he says.
 
@@ -78,8 +72,6 @@ What should you do?
 <span style="color:blue;">→</span>[[Listen to your manager and don't make any changes.->B2]]
 
 <span style="color:blue;">→</span>[[You stuck to your guns and rejected the manager's offer.->Ending1]]
-
-
 
 
 :: C2 {"position":"600,675","size":"100,100"}
@@ -91,21 +83,19 @@ But you still have concerns about whether this change will cause users to lose m
 <span style="color:blue;">→</span>[[Keep your worries down and go with the flow->Event-3]]
 
 
-
-
 :: C21 {"position":"450,800","size":"100,100"}
 <span style="font-size: 5.oem;">User Surveys</span>
 
 You have decided to dig and research BuyBest user reviews online.
-You have collected some recently generated user reviews for BuyBest.
 
-<span style="color:blue;">→</span>[[Read User A's review： 写用户意见->Client A3]]
-<span style="color:blue;">→</span>[[Read User B's review：写用户意见->Client B3]]
+There are some recent user feedback has emerged for BuyBest, you want to
 
+<span style="color:blue;">→</span>[[Read User Angela's review: Seamless Experience with Auto-Added Warranty->Client A3]]
+<span style="color:blue;">→</span>[[Read User Brittany's review: Lack of Transparency in Warranty Addition->Client B3]]
 
 
 :: C3 {"position":"1100,675","size":"100,100"}
-You suggest to your manager that 建议是什么，没有写。
+You suggest to your manager that the addition of protection warranty without asking for confirmation could trick users into choosing options they don't want.
 
 "These are customer-requested changes, and meeting the customer's needs is what we should be thinking about", he says.
 
@@ -115,61 +105,76 @@ What should you do?
 <span style="color:blue;">→</span>[[You stuck to your guns and rejected the manager's offer.->Ending1]]
 
 
+:: Changing the shape of the buttons {"position":"1800,175","size":"100,100"}
+Now you start trying to change the shape of the button, but you discover that the arrow buttons might be misleading. 
 
-
-:: Changing the shape of the buttons {"position":"1800,150","size":"100,100"}
-Now you start trying to change the shape of the button, but realize that this arrow replaces the button that accepts the company's default product. 
-On the other hand, the right arrow upgrades the user to a more expensive category.
+The left arrow, which was expected to navigate back to a previous page or cancel an action, actually replaced the button for accepting the company's default product. Conversely, the right arrow led to an upgrade to a more expensive product category.
 
 It bothers you，now you
-<span style="color:blue;">→</span>[[Refusal to proceed with the design due to perceived client inappropriateness->Ending1]]
+<span style="color:blue;">→</span>[[Refuse to continue with the design, believing it to be unsuitable for the client->Ending1]]
 
-<span style="color:blue;">→</span>[[Fully customized to the client's brief->A2]]
+<span style="color:blue;">→</span>[[Fully customized to the client's specifications->A2]]
 
-<span style="color:blue;">→</span>[[Think the client is inappropriate. Ask the manager for help->A3]]
+<span style="color:blue;">→</span>[[Consider the client's request inappropriate and seek assistance from your manager->A3]]
 
 
 :: Checkout process modifications {"position":"825,300","size":"100,100"}
 Now you start trying to streamline the checkout process by automatically selecting additional optional services, such as extended warranties and premium support, unless the user opts out.
-然后写发生了啥问题，这个没写
+
+It risks undermining trust and may lead to frustration among customers who might not have chosen this service had they been given a clear choice. 
 
 It bothers you，now you
-<span style="color:blue;">→</span>[[Refusal to proceed with the design due to perceived client inappropriateness->Ending1]]
+<span style="color:blue;">→</span>[[Refuse to continue with the design, believing it to be unsuitable for the client->Ending1]]
 
-<span style="color:blue;">→</span>[[Fully customized to the client's brief->C2]]
+<span style="color:blue;">→</span>[[Fully customized to the client's specifications->C2]]
 
-<span style="color:blue;">→</span>[[Think the client is inappropriate. Ask the manager for help->C3]]
+<span style="color:blue;">→</span>[[Consider the client's request inappropriate and seek assistance from your manager->C3]]
 
 
 :: Client A {"position":"1775,525","size":"100,100"}
-补充完整评语：
+User Alice: 
+
+"As a new user in BuyBest, I'm genuinely impressed by the creative interface design of the website, especially the innovative approach to the button designs. The unique shapes and vibrant colors used for the buttons not only caught my eye but also made navigating. 
+
+The designers have done an excellent job of merging aesthetics with functionality, ensuring that each interaction is not just visually appealing but also effectively guides me towards the desired actions."
 
 After reading this customer review, you think:
 
 <span style="color:blue;">→</span>[[Your concerns are allayed. You're waiting for things to go your way.->Event-1]]
 
 
+:: Client A2 {"position":"100,625","size":"100,100"}
+User Amanda:
 
-:: Client A2 {"position":"125,600","size":"100,100"}
-补充完整评语：
+"I really appreciate the use of red and green text on the website. It's a clever way to highlight important information, making it easier for me to distinguish between different sections and actions at a glance. 
+
+The red text grabs my attention where caution is needed, and the green text reassures me when things are correct or completed. It's an effective method to navigate through the site, and it significantly enhances my user experience by making it more intuitive and visually engaging."
 
 After reading this customer review, you think:
 
 <span style="color:blue;">→</span>[[Your concerns are allayed. You're waiting for things to go your way.->Event-2]]
 
 
-
 :: Client A3 {"position":"375,925","size":"100,100"}
-补充完整评语：
+User Angela:
+
+"I found the automatic addition of a protection warranty to my purchase quite convenient. It streamlined the checkout process, eliminating the need for me to navigate through extra options or make additional decisions. 
+
+This preemptive approach by the company not only saved me time but also provided immediate peace of mind knowing that my product is protected without having to manually opt-in. "
 
 After reading this customer review, you think:
 
 <span style="color:blue;">→</span>[[Your concerns are allayed. You're waiting for things to go your way.->Event-3]]
 
 
-
 :: Client B {"position":"1275,400","size":"100,100"}
-补充完整评语
+User Bob:
+
+"The irregular and misleading button design on this website to be quite problematic. The unconventional shapes and placements of buttons have led to confusion and frustration. 
+
+What's more, the misleading shapes of these buttons have often led me to click on options unintentionally, resulting in more expensive options that I don’t want. This design choice, while perhaps intended to be innovative, but more possible to intended to trick users toward unintended and often more expensive options!"
+
+
 
 After reading this customer review, you think and decide:
 
@@ -177,9 +182,12 @@ After reading this customer review, you think and decide:
 <span style="color:blue;">→</span>[[You think it might be a competitor smear and decide to ignore the review->Event-1]]
 
 
-
 :: Client B2 {"position":"250,675","size":"100,100"}
-补充完整评语
+User Brain:
+
+“While I understand the intention behind using red and green text for differentiation, it's been quite problematic for me due to my red-green color blindness. This color scheme makes it challenging to distinguish between critical warnings and positive confirmations, leading to confusion and a frustrating experience. 
+
+It's disappointing that the design does not consider accessibility for individuals with color vision deficiencies, and I hope future updates will include more inclusive color choices that are clear to everyone.”
 
 After reading this customer review, you think and decide:
 
@@ -187,9 +195,12 @@ After reading this customer review, you think and decide:
 <span style="color:blue;">→</span>[[You think it might be a competitor smear and decide to ignore the review->Event-2]]
 
 
-
 :: Client B3 {"position":"575,925","size":"100,100"}
-补充完整评语
+User Brittany:
+
+"The automatic inclusion of a protection warranty without explicit consent is concerning. It took me by surprise as I was not asked for confirmation, which raises questions about transparency and customer autonomy. This practice feels more like an imposition rather than a benefit, especially for those of us who prefer to review and choose additional services based on our needs and budget. 
+
+The lack of upfront communication about added costs and terms can lead to mistrust and dissatisfaction, undermining the overall purchasing experience."
 
 After reading this customer review, you think and decide:
 
@@ -197,8 +208,7 @@ After reading this customer review, you think and decide:
 <span style="color:blue;">→</span>[[You think it might be a competitor smear and decide to ignore the review->Event-3]]
 
 
-
-:: Client's Needs {"position":"1075,0","size":"200,200"}
+:: Client's Needs {"position":"1125,0","size":"200,200"}
 ''Client's Needs:''
 Transforming button designs to arrows for a more intuitive shopping flow, introducing a red and green color scheme to highlight deals and premium options, and simplifying the checkout process by auto-selecting additional services unless opted out by the user. 
 
@@ -214,21 +224,19 @@ Now, your team makes a project brief detailing the specific changes they think w
 
 :: Cover {"position":"250,25","size":"100,100"}
 <div class="title">Digital Horizons</div>
-<div class="sub-title">The interactive story is based on the ACM Ethics Board case study "Dark UX Patterns".</div>
+<div class="sub-title">
+The interactive story is based on the ACM Ethics Board case study 
+<a href="https://ethics.acm.org/code-of-ethics/using-the-code/case-dark-ux-patterns/" style="color: #607D8B;">"Dark UX Patterns"</a>.
+</div>
 <div class="start-link">[[Click here to start your story->My]]</div>
 
 <div class="middle-lower-container">
-  <div class="case-study">
-    <a href="https://ethics.acm.org/code-of-ethics/using-the-code/case-dark-ux-patterns/" style="color: #607D8B;">Case Study Link </a>
-  </div>
   <div class="group-role">Group Role: <br>
     Zhengying Sun - Developer(coding), UI designer, <br>
-    你们的名字-角色，<br>
-    你们的名字-角色
+    Sibei Zhou - Narrative Designer, Game Tester，<br>
+    Honghao Yu - Structure Designer, Game Tester, 
   </div>
 </div>
-
-
 
 
 :: Ending1 {"position":"2050,0","size":"100,100"}
@@ -248,7 +256,7 @@ Now, your team makes a project brief detailing the specific changes they think w
 <span style="color:blue;">→</span> [[Click here to start over->Cover]]
 
 
-:: Ending3 {"position":"1500,725","size":"100,100"}
+:: Ending3 {"position":"1500,750","size":"100,100"}
 <div class="title">Ending 3</div>
 The report was successful, and BuyBest was subjected to a government-supervised overhaul.
 <span style="color:blue;">→</span> [[Click here to start over->Cover]]
@@ -257,60 +265,56 @@ The report was successful, and BuyBest was subjected to a government-supervised 
 :: Event-1 {"position":"2175,550","size":"100,100"}
 <div class="reveal" style="animation-delay: 0s;">Shortly after the <strong style="color: #607D8B;">update is released</strong> to the production system, your team is invited to a celebration.</div>
 
-<div class="reveal" style="animation-delay: 2s;">As a result of these changes, their <strong style="color: #607D8B;">client's revenue has increased</strong> significantly over the previous quarter.</div>
+<div class="reveal" style="animation-delay: 2s;">As a result of the  <strong style="color: #607D8B;">changing of the button shape</strong>, their <strong style="color: #607D8B;">client's revenue has increased</strong> significantly over the previous quarter.</div>
 
 <div class="reveal" style="animation-delay: 4s;">At the celebration, you overhear some of the client's managers discussing the small <strong style="color: #607D8B;">increase in refunds</strong> for users who claimed they didn't want a protection plan, but there weren't many of those.</div>
 
-<div class="reveal" style="animation-delay: 6s;">One manager notes some complaints from visually impaired users who point out that the mix of red and green text obscures an important disclaimer about the product.</div>
+<div class="reveal" style="animation-delay: 6s;">One manager notes some complaints from some users who point out that This company's product design  <strong style="color: #607D8B;">makes them feel duped</strong>.</div>
 
 <div class="reveal" style="animation-delay: 8s;">"<strong style="color: #607D8B;"> So, what you're saying is that the changes went as planned</strong>," one manager joked.</div>
 
 <div class="blink blue-text" style="cursor:pointer;">[[&#8594Click here to see the outcome->Ending2]]</div>
-
 
 
 :: Event-2 {"position":"0,475","size":"100,100"}
-重新写Event2文字内容，以下为Event1内容：
 <div class="reveal" style="animation-delay: 0s;">Shortly after the <strong style="color: #607D8B;">update is released</strong> to the production system, your team is invited to a celebration.</div>
 
-<div class="reveal" style="animation-delay: 2s;">As a result of these changes, their <strong style="color: #607D8B;">client's revenue has increased</strong> significantly over the previous quarter.</div>
+<div class="reveal" style="animation-delay: 2s;">As a result of the <strong style="color: #607D8B;">modification of color scheme</strong>, their <strong style="color: #607D8B;">client's revenue has increased</strong> significantly over the previous quarter.</div>
 
-<div class="reveal" style="animation-delay: 4s;">At the celebration, you overhear some of the client's managers discussing the small <strong style="color: #607D8B;">increase in refunds</strong> for users who claimed they didn't want a protection plan, but there weren't many of those.</div>
+<div class="reveal" style="animation-delay: 4s;">One manager notes some complaints from visually impaired users who point out that<strong style="color: #607D8B;"> the mix of red and green text obscures an important disclaimer </strong>about the product.</div>
 
-<div class="reveal" style="animation-delay: 6s;">One manager notes some complaints from visually impaired users who point out that the mix of red and green text obscures an important disclaimer about the product.</div>
+<div class="reveal" style="animation-delay: 6s;">At the celebration, you overhear some of the client's managers discussing the small <strong style="color: #607D8B;">increase in law suits</strong> Because some customers are visually impaired, they can't read the disclaimer carefully, and they consider it discriminatory.</div>
 
 <div class="reveal" style="animation-delay: 8s;">"<strong style="color: #607D8B;"> So, what you're saying is that the changes went as planned</strong>," one manager joked.</div>
 
 <div class="blink blue-text" style="cursor:pointer;">[[&#8594Click here to see the outcome->Ending2]]</div>
-
 
 
 :: Event-3 {"position":"700,800","size":"100,100"}
-重新写Event3文字内容，以下为Event1内容：
 <div class="reveal" style="animation-delay: 0s;">Shortly after the <strong style="color: #607D8B;">update is released</strong> to the production system, your team is invited to a celebration.</div>
 
-<div class="reveal" style="animation-delay: 2s;">As a result of these changes, their <strong style="color: #607D8B;">client's revenue has increased</strong> significantly over the previous quarter.</div>
+<div class="reveal" style="animation-delay: 2s;">As a result of the <strong style="color: #607D8B;">modifications of the checkout process</strong>, their <strong style="color: #607D8B;">client's revenue has increased</strong> significantly over the previous quarter.</div>
 
-<div class="reveal" style="animation-delay: 4s;">At the celebration, you overhear some of the client's managers discussing the small <strong style="color: #607D8B;">increase in refunds</strong> for users who claimed they didn't want a protection plan, but there weren't many of those.</div>
+<div class="reveal" style="animation-delay: 4s;">At the celebration, you overhear some of the client's managers discussing the small <strong style="color: #607D8B;">increase in refunds</strong> for users who claimed they <strong style="color: #607D8B;">didn't want to upgrade to a more expensive product</strong>.</div>
 
-<div class="reveal" style="animation-delay: 6s;">One manager notes some complaints from visually impaired users who point out that the mix of red and green text obscures an important disclaimer about the product.</div>
+<div class="reveal" style="animation-delay: 6s;">One manager notes some complaints from individual users who point out that they want to use the company's default product, but the checkout process made them confused. They feel the company <strong style="color: #607D8B;">deliberately misleading information</strong>.</div>
 
 <div class="reveal" style="animation-delay: 8s;">"<strong style="color: #607D8B;"> So, what you're saying is that the changes went as planned</strong>," one manager joked.</div>
 
 <div class="blink blue-text" style="cursor:pointer;">[[&#8594Click here to see the outcome->Ending2]]</div>
-
 
 
 :: Modification of color scheme {"position":"100,225","size":"100,100"}
 Now you start trying to implemented a new color scheme using red and green text to highlight transactions and advanced options.
-然后写发生了啥问题，这个没写
+
+Could the use of red and green text in the interface potentially lead to misunderstandings for users with red-green color vision deficiency?
 
 It bothers you，now you
-<span style="color:blue;">→</span>[[Refusal to proceed with the design due to perceived client inappropriateness->Ending1]]
+<span style="color:blue;">→</span>[[Refuse to continue with the design, believing it to be unsuitable for the client->Ending1]]
 
-<span style="color:blue;">→</span>[[Fully customized to the client's brief->B2]]
+<span style="color:blue;">→</span>[[Fully customized to the client's specifications->B2]]
 
-<span style="color:blue;">→</span>[[Think the client is inappropriate. Ask the manager for help->B3]]
+<span style="color:blue;">→</span>[[Consider the client's request inappropriate and seek assistance from your manager->B3]]
 
 
 :: My {"position":"525,0","size":"200,200"}
@@ -326,21 +330,12 @@ Now that your team has communicated with the customer and learned about their ne
 <span style="color:blue;">→</span> [[Click here to see  Client's Needs->Client's Needs]]
 
 
-
 :: Report-1 {"position":"1450,525","size":"100,100"}
 User B's review reinforces your conviction that your concerns are real, and you decide to ''report'' the platform's illogical design. 
 
 You reported BuyBest to the authorities for utilizing a dark user experience (UX) model to lure users into choosing unintended (and often more expensive) options that cause harm.
 
 <div class="blink blue-text" style="cursor:pointer;">[[&#8594Click here to see the outcome->Ending3]]</div>
-
-
-
-
-
-
-
-
 
 
 :: Report-2 {"position":"425,550","size":"100,100"}
@@ -351,14 +346,12 @@ You reported BuyBest to the authorities for utilizing a dark user experience (UX
 <div class="blink blue-text" style="cursor:pointer;">[[&#8594Click here to see the outcome->Ending3]]</div>
 
 
-
 :: Report-3 {"position":"575,1050","size":"100,100"}
 User B's review reinforces your conviction that your concerns are real, and you decide to ''report'' the platform's illogical design. 
 
 You reported BuyBest to the authorities for utilizing a dark user experience (UX) model to 这个是什么影响要写
 
 <div class="blink blue-text" style="cursor:pointer;">[[&#8594Click here to see the outcome->Ending3]]</div>
-
 
 
 :: Tasks {"position":"550,300","size":"100,100"}
@@ -368,7 +361,7 @@ B. <span style="color:blue;">→</span>(text-colour:blue)+(text-style:"underline
 
 C. <span style="color:blue;">→</span>(text-colour:blue)+(text-style:"underline")[[Checkout process modifications]]:Simplify the checkout process by automatically selecting additional optional services, such as extended warranty and premium support, unless the user opts out.
 
-Now you need to complete your tasks one by one,(text-colour:grey)[&#8593''click on the blue underlined text''] to go to each task.
+Now you need to complete your tasks one by one,(text-colour:grey)[&#8593''click on the blue underlined text''] to see the detail of each task.
 
 
 :: StoryStylesheet [stylesheet]
@@ -479,5 +472,3 @@ Now you need to complete your tasks one by one,(text-colour:grey)[&#8593''click 
   line-height: 1.2; /* 调整行间距 */
   font-size: 0.75em; /*adjust font size*/
 }
-
-
